@@ -13,7 +13,7 @@ spec:
         app: demo-app
     spec:
       containers:
-      - name: pratik6958/ssl-app:latest
+      - name: demo-app
         image: pratik6958/ssl-app:latest
         ports:
         - containerPort: 80
